@@ -8,7 +8,7 @@
 	<body>
 		
 		<div class="jumbotron">
-			<h1>Blaze Game</h1>
+			<h1>Blaze Game S</h1>
 		</div>
 
 		<script src="js/bootstrap.js"></script>
