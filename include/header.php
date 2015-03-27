@@ -7,8 +7,8 @@
 	
 	<body>
 		
-		<nav class="navbar navbar-default">
-  			<div class="container-fluid">
+		<nav class="navbar navbar-inverse">
+  			<div class="container">
     			<div class="navbar-header">
       				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         				<span class="sr-only">Toggle navigation</span>
@@ -21,18 +21,16 @@
     			
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav">
-        				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        				<li><a href="#">Link</a></li>
+        				<li><a href="index.php">Home</a></li>
+        				<li><a href="games.php">Games</a></li>
+        				<li><a href="contact.php">Contact</a></li>
+        				<li><a href="about.php">About</a></li>
       				</ul>
-    			</div><!-- /.navbar-collapse -->
-  			</div><!-- /.container-fluid -->
+    			</div>
+    		</div>
 		</nav>
 
-		<div class="jumbotron">
-			<div class="container">
-				<h1>Blaze Game Studios</h1>
-			</div>
-		</div>
+		
 
 		<script src="js/bootstrap.js"></script>
 	</body>
