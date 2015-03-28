@@ -8,7 +8,8 @@
 		<div class="jumbotron">
 			<div class="container">
 				<h1>Blaze Game Studios</h1>
-				
+				<h3>Welcome!</h3>
+				<p>Welcome to the Blaze Game Studios website! Blaze Game Studios is a new upcoming game studio with multiple popular games on the App Store. Get ready for some amazing games!</p>
 			</div>
 		</div>
 		<div class="container">
@@ -44,6 +45,7 @@
 				
 				<div class="col-sm-4">
 					<h3>Commander Comet</h3>
+					<p>Coming Soon!</p>
 				</div>
 			</div>
 		</div>
