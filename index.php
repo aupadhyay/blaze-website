@@ -32,13 +32,13 @@
 					<h3>Grave Buster</h3>
 					
 					<a href="https://itunes.apple.com/us/app/grave-buster/id908537151">
-  						<img alt="Get it on the App Store" src="img/app_store_apple.svg" />
+  						<img alt="Get it on the App Store" src="img/app_store_apple.svg" width="300" />
   					</a>
 					
 					<br>
 					
 					<a href="https://play.google.com/store/apps/details?id=com.blazegamestudios.gravebuster">
-  						<img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+  						<img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" width="300" />
   					</a>
 				</div>
 				
