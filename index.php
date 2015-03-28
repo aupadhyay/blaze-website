@@ -16,8 +16,8 @@
 				<div class="col-sm-4">
 					<h3>Soccer Burst</h3>
 					
-					<a href="https://play.google.com/store/apps/details?id=com.blazegamestudios.soccerburst">
-  						<img alt="Get it on Google Play" src="img/app_store_apple.svg" width="100" height="100" />
+					<a href="https://itunes.apple.com/TR/app/id908532523">
+  						<img alt="Get it on the App Store" src="img/app_store_apple.svg" />
   					</a>
 					
 					<br>
@@ -30,6 +30,10 @@
 
 				<div class="col-sm-4">
 					<h3>Grave Buster</h3>
+					
+					<a href="https://itunes.apple.com/us/app/grave-buster/id908537151">
+  						<img alt="Get it on the App Store" src="img/app_store_apple.svg" />
+  					</a>
 					
 					<br>
 					
