@@ -1,7 +1,7 @@
-<manifest alg="2" build="44" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1427595694873">
+<manifest alg="2" build="44" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1427596539249">
   <folder name="css">
     <file name="site_global.css" crc="438240654"/>
-    <file name="index.css" crc="4006274184" ref="index"/>
+    <file name="index.css" crc="4086387669" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="364326742" ref="index"/>
@@ -11,11 +11,6 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="503158633" ref="index"/>
     <file name="pie.js" crc="3827607177" ref="index"/>
     <file name="jquery.scrolleffects.js" crc="445554118" ref="index"/>
-    <file name="webpro.js" crc="3930024250" ref="index"/>
-    <file name="form_check.php" crc="332337308" ref="index"/>
-    <file name="form_throttle.php" crc="3814272331" ref="index"/>
-    <file name="form_process.php" crc="59041389" ref="index"/>
-    <file name="form-u281.php" crc="4263601808" ref="index"/>
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
   </folder>
   <folder name="images">
@@ -41,14 +36,11 @@
     <file name="en_generic_rgb_wo_60.png" crc="4263355143" ref="index"/>
     <file name="blue-earth-wallpaper.jpg" crc="4053130179" ref="index"/>
     <file name="u299-4.png" crc="4100328163" ref="index"/>
-    <file name="u287-17.png" crc="3872104501" ref="index"/>
-    <file name="u287-17-r.png" crc="4241839694" ref="index"/>
-    <file name="u287-17-m.png" crc="398688290" ref="index"/>
-    <file name="u287-17-fs.png" crc="3818631659" ref="index"/>
     <file name="u334-4.png" crc="3962462174" ref="index"/>
     <file name="u340-4.png" crc="4213716897" ref="index"/>
     <file name="u326-4.png" crc="465108721" ref="index"/>
     <file name="u321-4.png" crc="201624812" ref="index"/>
+    <file name="u345-14.png" crc="3898601358" ref="index"/>
   </folder>
-  <file name="index.html" crc="21058587" mt="1427595693831" redirect="true"/>
+  <file name="index.html" crc="507918289" mt="1427596516845" redirect="true"/>
 </manifest>
