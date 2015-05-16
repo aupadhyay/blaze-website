@@ -28,7 +28,39 @@
 	* Different devices
 * Begin coding in Lua
 	* Print statements
-	* Variables
-	* If, then, else
+		* **Excercise** - Print out something
+	* Variables - "local"
+		* Naming Conventions
+		* Different types - int, string, float, char, constants, arrays, booleans
+		* Defining a variable
+		* Using a variable
+			* Printing the contents of a variable
+			* Simple expressions w/ variable
+		* **Excercise** - Store age and name in variable. Print values to console
+	* Conditional Statements - If, else
+		* Syntax & Keywords - "then", "end", "and", "or", "not", "elseif"
+			* then goes at the end of if statement
+			* end - completes the statement
+			*
+		* Explain inequalities
+		* Examples
+			* 1st example
+				* Set variable _age_ to 24
+				* Write if clause - _if(age>=18) then_
+				* Print out "You're an adult!"
+				* Else statement - "You're still a kid!"
+			* 2nd example
+
+
+		* **Excercise**
+	* Conditional (cont'd) - while, for
+
+		* **Excercise** -
+	* Functions
+		* Keywords - "function", "end"
+		* Arguments
+		* Indentation - tentative
+
+
 
 [blaze-logo]: https://dl-web.dropbox.com/get/Blaze%20Game%20Studios/Logos/Logo_3_Fire.png?_subject_uid=45562810&w=AABN86q0JQSitAFSu4HsaibL5KiJvkblA8igkcaVGZbDCA
