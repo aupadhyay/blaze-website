@@ -8,7 +8,6 @@
 	* 0's and 1's
 * What is Corona SDK?
 	* [Show Corona Website](https://coronalabs.com/)
-	* Show Corona Simulator
 	* Show sample Lua code
 * Installing Corona SDK
 	* Make Corona SDK account
