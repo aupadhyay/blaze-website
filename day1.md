@@ -38,31 +38,6 @@
 			* Simple expressions w/ variable
 			* Mathematic operators - "+=", "-=", "%", "^"
 		* **Excercise** - Store age and name in variable. Print values to console
-	* Conditional Statements - If, else
-		* Syntax & Keywords - "then", "end", "and", "or", "not", "elseif"
-			* then goes at the end of if statement
-			* end - completes the statement
-			* 
-		* Explain inequalities
-		* Example
-			* Set variable _age_ to 24
-			* Write if clause - _if(age>=18)_
-			* Print out "You're an adult!"
-			* Else statement - "You're still a kid!"
-			* Elseif statement - <3 = "Why are you using a computer?"
-		* **Excercise** - If statement with integer _grade_ as grade level. Use if, else, and elseif
-	* Conditional (cont'd) - while
-
-		* **Excercise** -
-	* Functions
-		* Keywords - "function", "end"
-		* Arguments
-		* Indentation - tentative
-
-
-
-
-	*
 
 
 
