@@ -58,12 +58,18 @@
 		* Keywords - "function", "end"
 		* Arguments
 		* Indentation - tentative
-
-
-
-
-	*
-
-
-
-[blaze-logo]: https://dl-web.dropbox.com/get/Blaze%20Game%20Studios/Logos/Logo_3_Fire.png?_subject_uid=45562810&w=AABN86q0JQSitAFSu4HsaibL5KiJvkblA8igkcaVGZbDCA
+	* Display Objects
+		* Rect
+		* Circle
+		* Text
+		* Image
+		* Properties/Arguments
+		* **Excercise** - Take picture, display on screen
+	*Event Listeners
+		*Add/Remove
+		*Event Functions
+		*Different types - tap, touch, drag, accelerometer
+	* Changing object's properties
+	* Music/Sound Effects
+	* Storyboard
+	* 
