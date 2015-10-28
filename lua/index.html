@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Blaze Game Studios - Corona SDK</title>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+	</head>
+	<body style="background-color:#304F7F;color:white;padding-top: 25px;">
+		<script>
+      		function initialize() {
+      		  var mapCanvas = document.getElementById('map-canvas');
+      		  var mapOptions = {
+      		    center: new google.maps.LatLng(37.546657,-121.941754),
+      		    zoom: 16,
+      		    mapTypeId: google.maps.MapTypeId.ROADMAP
+      		  }
+      		  var map = new google.maps.Map(mapCanvas, mapOptions)
+      		}
+      		google.maps.event.addDomListener(window, 'load', initialize);
+    	</script>
+
+		<div class="container">
+			<div class="jumbotron" style="color:#304F7F;">
+				
+				<h2><b>Corona SDK/Lua Summer Classes</b> - <em>Blaze Game Studios</em></h1>
+				<h3><b>Teachers</b></h3>
+				<div class="row">
+					<div class="col-md-6">
+						<p>Abhi Upadhyay</p>
+						<a href="http://www.github.com/aupadhyay">GitHub</a>
+					</div>
+					<div class="col-md-6">
+						<p>Cyrus Vachha</p>
+						<a href="http://www.github.com/cvachha">GitHub</a>
+					</div>
+				</div><br>
+
+				<div class="row">
+
+					<div class="col-md-6">
+						<p>Here's a video explaining our vision:</p>
+						<iframe width="420" height="315" src="https://www.youtube.com/embed/KMU0tzLwhbE" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+					<div class="col-md-6">
+						<p>Hosted at Hopkins Junior High School</p>
+						<div id="map-canvas" style="width:420px;height:315px"></div>
+					</div>
+				</div>
+				
+
+			</div>
+
+			<dihttp://v class="row">
+				<div class="col-md-6">
+					<h3>Classes</h3>
+					<p>...</p>	
+				</div>
+	
+				<div class="col-md-6">
+					<h3>FAQ</h3>
+					<ol>
+						<li>Q: 
+						<br>A:</li>
+
+						<li>Q: 
+						<br>A:</li>
+
+						<li>Q: 
+						<br>A:</li>
+
+						<li>Q: 
+						<br>A:</li>
+
+						<li>Q: 
+						<br>A:</li>	
+					</ol>
+				</div>
+			</div>
+		
+		</div>
+
+		<script src="../js/bootstrap.js"></script>
+	</body>
+</html>
