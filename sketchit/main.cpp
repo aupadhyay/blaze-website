@@ -2,9 +2,8 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include <stdio.h>
-#include <stdlib.h>
-#include "opencv2/photo.hpp"
+
+
 
 using namespace cv;
 using namespace std;
@@ -19,8 +18,7 @@ RNG rng(12345);
 void thresh_callback(int, void*);
 
 /** @function main */
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv){
 	/// Load source image and convert it to gray
 	src = imread(argv[1], 1);
 
@@ -29,9 +27,8 @@ int main(int argc, char** argv)
 	blur(src_gray, src_gray, Size(3, 3));
 
 	/// Create Window
-	char* source_window = "Source";
-	namedWindow(source_window, CV_WINDOW_AUTOSIZE);
-	imshow(source_window, src_gray);
+	//namedWindow("Source", CV_WINDOW_AUTOSIZE);
+	//imshow("Source", src_gray);
 
 	//createTrackbar(" Threshold:", "Source", &thresh, max_thresh, thresh_callback);
 	thresh_callback(0, 0);
@@ -75,8 +72,8 @@ void thresh_callback(int, void*){
 
 
 	/// Show in a window
-	namedWindow("Contours", CV_WINDOW_AUTOSIZE);
-	imshow("Contours", drawing);
+	//namedWindow("Contours", CV_WINDOW_AUTOSIZE);
+	//imshow("Contours", drawing);
 	imwrite("contours.png", drawing);
 
 }
