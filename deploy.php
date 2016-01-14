@@ -26,7 +26,7 @@ if (file_exists(basename(__FILE__, '.php').'-config.php')) require_once basename
  *
  * @var string
  */
-if (!defined('SECRET_ACCESS_TOKEN')) define('SECRET_ACCESS_TOKEN', 'janoneseven2');
+if (!defined('SECRET_ACCESS_TOKEN')) define('SECRET_ACCESS_TOKEN', 'AbhiUpadhyay');
 
 /**
  * The address of the remote Git repository that contains the code that's being
