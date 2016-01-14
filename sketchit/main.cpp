@@ -3,21 +3,17 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
-
-
 using namespace cv;
 using namespace std;
 
-
-Mat src; Mat src_gray;
+Mat src; 
+Mat src_gray;
 int thresh = 200;
 int max_thresh = 255;
 RNG rng(12345);
 
-/// Function header
 void thresh_callback(int, void*);
 
-/** @function main */
 int main(int argc, char** argv){
 	/// Load source image and convert it to gray
 	src = imread(argv[1], 1);
@@ -26,11 +22,11 @@ int main(int argc, char** argv){
 	cvtColor(src, src_gray, CV_BGR2GRAY);
 	blur(src_gray, src_gray, Size(3, 3));
 
-	/// Create Window
+	/// WINDOW STUFF *******************************************************
 	//namedWindow("Source", CV_WINDOW_AUTOSIZE);
 	//imshow("Source", src_gray);
-
 	//createTrackbar(" Threshold:", "Source", &thresh, max_thresh, thresh_callback);
+	
 	thresh_callback(0, 0);
 
 	waitKey(0);
@@ -47,6 +43,7 @@ void thresh_callback(int, void*){
 	findContours(threshold_output, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_SIMPLE, Point(0, 0));
 	vector<vector<Point> > contours_poly(contours.size());
 	vector<Rect> boundRect(contours.size());
+	
 	for (int i = 0; i < contours.size(); i++){
 		approxPolyDP(Mat(contours[i]), contours_poly[i], 3, true);
 		boundRect[i] = boundingRect(Mat(contours_poly[i]));
@@ -61,7 +58,7 @@ void thresh_callback(int, void*){
 	cout << s.width << "\n";
 	cout << s.height << "\n";
 	for (int i = 0; i< contours.size(); i++)
-	{
+	{			
 		Scalar color = Scalar(rng.uniform(0, 255), rng.uniform(0, 255), rng.uniform(0, 255));
 		drawContours(drawing, contours_poly, i, color, 1, 8, vector<Vec4i>(), 0, Point());
 		rectangle(drawing, boundRect[i].tl(), boundRect[i].br(), color, 2, 8, 0);
@@ -69,13 +66,15 @@ void thresh_callback(int, void*){
 		cout << boundRect[i].tl() <<"\n";
 		cout << boundRect[i].width << "\n";
 		cout << boundRect[i].height << "\n";
+	
 	}
 	
 
 
-	/// Show in a window
+	///WINDOW STUFF *******************************************************************
 	//namedWindow("Contours", CV_WINDOW_AUTOSIZE);
 	//imshow("Contours", drawing);
+	
 	imwrite("contours.png", drawing);
 
 }
