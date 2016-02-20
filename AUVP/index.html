@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ABHI FOR VP</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>THE CLOCK IS TICKING</h1>
+		<div id="clockdiv">
+  			<div>
+    			<span class="days"></span>
+    			<div class="smalltext">Day</div>
+  			</div>
+  			<div>
+    			<span class="hours"></span>
+    			<div class="smalltext">Hours</div>
+  			</div>
+  			<div>
+    			<span class="minutes"></span>
+				<div class="smalltext">Minutes</div>
+  			</div>
+  			<div>
+    			<span class="seconds"></span>
+    			<div class="smalltext">Seconds</div>
+  			</div>
+		</div>
+		<div class="au">
+			<h2>AU VP<br><i>It's time</i></h2>
+		</div>
+		<div class="sig">
+			<img src="signature-01.svg" alt="" width="100%">
+			<h2>Abhi Upadhyay</h2>
+		</div>
+
+		<script>	
+			function getTimeRemaining(endtime) {
+ 			var t = Date.parse(endtime) - Date.parse(new Date(<?php echo time() * 1000 ?>));
+  			var seconds = Math.floor((t / 1000) % 60);
+  			var minutes = Math.floor((t / 1000 / 60) % 60);
+  			var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  			var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  			return {
+    			'total': t,
+    			'days': days,
+    			'hours': hours,
+    			'minutes': minutes,
+    			'seconds': seconds
+  			};
+			}
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+    var timeinterval = setTimeout(updateClock, 1000);
+
+  }
+
+  updateClock();
+  var timeinterval = setTimeout(updateClock, 1000);
+}
+
+var deadline = new Date(Date.parse('February 21 2016 21:00:00 GMT-08:00'));
+initializeClock('clockdiv', deadline);
+		</script>
+	</body>
+</html>
