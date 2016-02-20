@@ -28,7 +28,7 @@ define('SECRET_ACCESS_TOKEN', 'AbhiUpadhyay');
  *
  * @var string
  */
-define('REMOTE_REPOSITORY', 'https://github.com/aupadhyay/blaze-website.git');
+define('REMOTE_REPOSITORY', 'https://github.com/aupadhyay/sketchit.git');
 
 /**
  * The branch that's being deployed.
@@ -44,7 +44,7 @@ define('BRANCH', 'master');
  *
  * @var string Full path including the trailing slash
  */
-define('TARGET_DIR', '/var/www/html/');
+define('TARGET_DIR', '/var/www/html/sketchit/');
 
 /**
  * Whether to delete the files that are not in the repository but are on the
