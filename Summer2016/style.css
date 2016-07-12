@@ -1,3 +1,8 @@
+.blaze{
+  font-size: 50px;
+  color: #2492a8;
+}
+
 .navbar-default {
   background-color: #71bbda;
   border-color: #4481ad;
@@ -66,8 +71,4 @@
     color: #ffffff;
     background-color: #4481ad;
   }
-}
-
-#pictures > .col-md-2{
-  padding: 0px !important;
 }
